@@ -53,14 +53,14 @@ This repository contains scripts for a Discord bot, consisting in a music guessi
 ## Usage
 Users can interact with the bot by sending a specific command in a Discord channel. To initiate the game, use the following command format: `!game playlist_name/playlist_url num_rounds=number`.
   ### Valid Examples:
-    - `!game pop 2010s num_rounds=2`
-    - `!game pop 2010s`
+    !game pop 2010s num_rounds=2
+    !game pop 2010s
   ### Invalid Examples:
-    - `!game`
-    - `!game num_rounds=2`
+    !game
+    !game num_rounds=2
   ### Details:
-    - **playlist_name/playlist_url**: Specify the name of the playlist or its URL.
-    - **num_rounds**: (Optional) Specify the number of rounds for the game. If not mentioned, the deafult number of rounds is set to 5.
+    **playlist_name/playlist_url**: Specify the name of the playlist or its URL.
+    **num_rounds**: (Optional) Specify the number of rounds for the game. If not mentioned, the deafult number of rounds is set to 5.
 
 
      
