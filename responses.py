@@ -308,7 +308,7 @@ async def game(ctx, bot, genius_token, spotify_token):
         if number is not None:
             num_rounds = number
         else:
-            num_rounds = 1
+            num_rounds = 5
         
         if playlist_name == "":
             await send(ctx, "Something went wrong", "Check the playlist url or the name you have provided.", "", "")
